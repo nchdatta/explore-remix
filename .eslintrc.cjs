@@ -48,6 +48,9 @@ module.exports = {
           typescript: {},
         },
       },
+      rules: {
+        "@typescript-eslint/no-explicit-any": "off",
+      },
     },
 
     // Typescript
